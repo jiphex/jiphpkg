@@ -1,4 +1,16 @@
 {
+    "mqt2prom": {
+        "branch": "master",
+        "description": "Quick exporter for floats in MQTT (like zigbee2mqtt)",
+        "homepage": null,
+        "owner": "jiphex",
+        "repo": "mqtt2prom",
+        "rev": "d44e3c21c59fce35037ed157bfae21e220eba1eb",
+        "sha256": "0fapim1nhwlgfw59w9j65c994jw0s52ylr4y7xvkhamv3z54g04m",
+        "type": "tarball",
+        "url": "https://github.com/jiphex/mqtt2prom/archive/d44e3c21c59fce35037ed157bfae21e220eba1eb.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "niv": {
         "branch": "master",
         "description": "Easy dependency management for Nix projects",
