@@ -1,4 +1,4 @@
-{ sources ? import ./sources.nix }:     # import the sources
+{ sources ? import ./nix/sources.nix }:     # import the sources
 with
   { overlay = _: pkgs:
       { niv = (import sources.niv {}).niv;    # use the sources :)
